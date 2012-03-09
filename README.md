@@ -8,5 +8,8 @@ add enter following lines in your ~ dir
 Keybindings:
 
 	Tasklist: ,+t
-	NerdTree: crtl+n
-	MiniBuffExplorer: crtl+b
+	NerdTree: ctrl+n
+	MiniBuffExplorer: ctrl+b
+        omnicompletion: ctrl+space
+
+Colorscheme: xoria256
