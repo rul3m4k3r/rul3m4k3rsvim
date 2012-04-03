@@ -18,11 +18,17 @@ call pathogen#helptags()
 :set nowritebackup
 :set noswapfile
 
+" no bells
+set noeb vb t_vb=
+
 " xoria color scheme
 :colo xoria256
 
 " Set standart mapping
 :let mapleader = ","
+
+" Insert statusline from fugitive
+set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 
 " Nerdtree show bookmarks on startup
 :let NERDTreeShowBookmarks=1
