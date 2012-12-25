@@ -53,6 +53,9 @@ autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 inoremap <Nul> <C-x><C-o>
 imap <c-space> <C-x><C-o>
 
+" Map Ctrl C to close buffer without Window
+map <C-c> <esc>:mbc<enter>
+
 " Map Ctrl T to TagList
 map <C-t> <esc>:TlistToggle<enter>
 
@@ -64,6 +67,9 @@ map <C-x> <esc>:MBEbp<enter>
 
 " Map Ctrl N to NerdTree
 map <C-n> <esc>:NERDTreeToggle<enter>
+
+" Remove dos formatting
+map <C-d> <esc>:%s/[ctrl v][ctrl[m]//g
 
 "Surround Django Key Mappings
 let b:surround_{char2nr("v")} = "{{ \r }}"
