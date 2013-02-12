@@ -2,9 +2,10 @@
 
 add enter following lines in your ~ dir
 
-    ln -s rul3m4k3rVim/ .vim
-    ln -s rul3m4k3rVim/.vimrc .vimrc
+    ln -s rul3m4k3rsVim/ .vim
+    ln -s rul3m4k3rsVim/.vimrc .vimrc
 
+    brew install ack
 Keybindings:
 
 	Tasklist: ,+t
