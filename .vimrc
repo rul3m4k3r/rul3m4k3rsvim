@@ -35,10 +35,6 @@ set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 
 " MiniBuffExplorer
 :let Tlist_Ctags_Cmd='/usr/local/bin/ctags'
-:let g:miniBufExplMapWindowNavVim = 1
-:let g:miniBufExplMapWindowNavArrows = 1
-:let g:miniBufExplMapCTabSwitchBufs = 1
-:let g:miniBufExplModSelTarget = 1
 
 " code(omni)
 autocmd FileType python set omnifunc=pythoncomplete#Complete
@@ -60,7 +56,6 @@ map <C-c> <esc>:mbc<enter>
 map <C-t> <esc>:TlistToggle<enter>
 
 " Map Ctrl B to MiniBufExplorer
-map <C-b> <esc>:TMiniBufExplorer<enter>
 map <C-y> <esc>:MBEbn<enter>
 map <C-x> <esc>:MBEbp<enter>
 
