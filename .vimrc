@@ -55,16 +55,14 @@ map <C-c> <esc>:mbc<enter>
 " Map Ctrl T to TagList
 map <C-t> <esc>:TlistToggle<enter>
 
-" Map Ctrl B to MiniBufExplorer
-map <C-y> <esc>:MBEbn<enter>
-map <C-x> <esc>:MBEbp<enter>
-
-
 " Map Ctrl N to NerdTree
 map <C-n> <esc>:NERDTreeToggle<enter>
 
 " Remove dos formatting
 map <C-d> <esc>:%s/[ctrl v][ctrl[m]//g
+
+" Close Buffer without change layout
+nmap <Leader>w <esc>:Kwbd<enter>
 
 "Surround Django Key Mappings
 let b:surround_{char2nr("v")} = "{{ \r }}"
