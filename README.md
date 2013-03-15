@@ -10,7 +10,6 @@ Keybindings:
 
 	Tasklist: ,+t
 	NerdTree: ctrl+n
-	MiniBuffExplorer: ctrl+b
         omnicompletion: ctrl+space
 
 Colorscheme: xoria256
