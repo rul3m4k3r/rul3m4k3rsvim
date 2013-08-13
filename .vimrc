@@ -19,8 +19,9 @@ call pathogen#helptags()
 :set noswapfile
 
 "Python-Mode
-let g:pymode_lint_checker = "pylint,pep8,mccabe"
-
+let g:pymode_lint_checker = "pylint,pyflakes,pep8,mccabe"
+let g:pymode_syntax_slow_sync = 0
+let g:pymode_folding = 0
 " no bells
 set noeb vb t_vb=
 
