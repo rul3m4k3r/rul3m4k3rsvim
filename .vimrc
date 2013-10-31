@@ -79,6 +79,10 @@ let b:surround_{char2nr("f")} = "{% for \1for loop: \1 %}\r{% endfor %}"
 let b:surround_{char2nr("c")} = "{% comment %}\r{% endcomment %}"
 
 
+"CoffeeLint
+"let coffee_linter = '/usr/local/share/npm/bin/coffeelint'
+"au BufWritePost *.coffee CoffeeLint | cwindow | redraw!
+
 """" Autocommands
 if has("autocmd")
 augroup vimrcEx
